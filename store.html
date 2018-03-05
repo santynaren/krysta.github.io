@@ -152,7 +152,8 @@
                     var department = $('#department').val();
                     var customization = $('#customization').val();
                    
-                    dataSet = "{\n\t\"name\": \"asdfa\",\n\t\"contact\":\"13241324\",\n\t\"tshirt_size\":\"sadf\",\n\t\"department\":\"fasdfas\",\n\t\"customization\":\"asfas\"\n}";
+                    
+                    dataSet = "{\n\t\"name\": \""+name+"\",\n\t\"contact\":\""+contact+"\",\n\t\"tshirt_size\":\""+tshirt_size+"\",\n\t\"department\":\""+department+"\",\n\t\"customization\":\""+customization+"\"\n}";
                     $('#submit').html('Please Wait .....');
                     $.ajax({
 
